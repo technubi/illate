@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#dddbd2"
+    android:orientation="vertical"
+    android:padding="4dp" >
+
+    <TextView
+        android:id="@+id/nmplaceM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place" />
+
+    <ImageView
+        android:id="@+id/gambarfoodM"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:padding="5dp"
+        android:src="@drawable/test" />
+
+    <TextView
+        android:id="@+id/nmfoodM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Fod name" />
+
+    <TextView
+        android:id="@+id/nmalamatM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="location" />
+
+</LinearLayout>
